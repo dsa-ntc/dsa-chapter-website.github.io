@@ -56,7 +56,7 @@ You will need a GitHub account and a GitHub organization for your chapter. While
 ![](readme-assets/site-preview.png)
 
 
-## Adding And Editing Content
+## Adding and Editing Content
 
 All pages for this new website are contained in the `_pages` directory. There are several pages created as examples, here are the main ones:
 `404.md` -- Example 404 page which Jekyll will direct any page to if it doesn't otherwise exist, you can customize this further to your chapter's content.
