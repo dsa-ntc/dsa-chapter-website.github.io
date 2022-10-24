@@ -22,13 +22,35 @@ Jekyll, the base code for this website and this project, is a static website gen
 This document will be around using the hosted GitHub Pages instance as self-hosting this same website is out of scope of this document. This document will also assume a small amount of familiarity with `git` for version control and the Markdown markup language for creating pages on the website.
 You will also need a GitHub account and a GitHub organization for your chapter. While GitHub Pages can be created both on personal and group accounts, it's recommended to make this a Chapter based account to provide additional access if needed.
 
-1. [create a new organization](https://github.com/organizations/plan) on GitHub. Select the "Create a free organization" option.
-2. Fill out the basic information. Feel free to add organization members now or at a later point. As you proceed past the optional survey, you will be redirected to your organization's page at `https://github.com/ORGANIZATION_NAME`.
-3. Click the "Create new repository" button in the right-hand sidebar, under "Repositories". Name your repository "ORGANIZATION_NAME.github.io". All letters in the repository name will need to be lowercase.
+1. [Create a new organization](https://github.com/organizations/plan) on GitHub. Select the "Create a free organization" option.
+
+![](readme-assets/create-organization.png)
+
+2. Fill out the basic information. Feel free to add organization members now or at a later point. As you proceed past the optional survey, you will be redirected to your organization's page at `https://github.com/organization-name`.
+
+![](readme-assets/create-organization-details.png)
+
+3. Click the "Create new repository" button in the right-hand sidebar, under "Repositories". Name your repository `organization-name.github.io`. All letters in the repository name will need to be lowercase.
+
+![](readme-assets/create-new-repo.png)
+
 4. You will need to make your repostory public in order for GitHub page to work, unless you're using a paid plan. You can leave the rest of the options as they are and click the "Create repository" button at the bottom of the page.
+
+![](readme-assets/create-organization-details.png)
+
 5. Use the "Import code" button to copy the starter website.
-6. Use `https://github.com/peninsuladsa-ntc/peninsuladsa-ntc.github.io` as "Your old repository's clone URL" and click "Begin import".
-6. Once the import is finished, click your repository link. You will see a link to your new site next to its name in the format `https://ORGANIZATION_NAME.github.io/`.
+
+![](readme-assets/import-starter-site.png)
+
+
+6. Use `https://github.com/dsa-chapter-website/dsa-chapter-website.github.io` as "Your old repository's clone URL" and click "Begin import".
+
+![](readme-assets/import-starter-site-begin-import.png)
+
+
+7. Once the import is finished, click your repository link. You will see a link to your new site next to the repository's name on top of the page. Your site's URL will have the format of `https://organization-name.github.io/`.
+
+![](readme-assets/site-preview.png)
 
 You can learn more about GitHub Pages at [pages.github.com](https://pages.github.com/) find a detailed walkthrough on [GitHub Docs](https://docs.github.com/en/pages).
 
