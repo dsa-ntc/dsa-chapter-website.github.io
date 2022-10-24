@@ -1,26 +1,29 @@
 # DSA Chapter In a Box Website Runbook
 
-This repo provides both a theme for Chapters and Organizing Committees of the Democratic Socialists of America (refered herein as "Chapters" for shorthand), as well as a runbook to get this up and running for any Chapter that wants it. The theme is based on the [Lone Wolf Theme](https://github.com/manid2/lone-wolf-theme) for [Jekyll](https://jekyllrb.com/).
 
-Smaller Chapters, or Chapters without a dedicated internal Tech committee, may lack a web presence outside of Corporate owned Social Media. To assist with this, the National Tech Committee (NTC) has created this runbook to help quickly get chapter webpages up and running with DSA branding.
-Free web hosting may be acquired from GitHub, an open source version control website for software developers, but can be used solely for hosting static webpages or blogs. In this runbook, we will be setting up a webpage using Jekyll, a static webpage generator on a GitHub Pages instance, however you may use this to self-host if your chapter has a webserver.
+Smaller Chapters and Organizing Committees of the [Democratic Socialists of America](https://www.dsausa.org/) (refered herein as "Chapters" for shorthand), or Chapters without a dedicated internal Tech committee, may lack a web presence outside of Corporate owned Social Media. To assist with this, the [National Tech Committee (NTC)](https://tech.dsausa.org/) has created this runbook to help quickly get chapter webpages up and running with DSA branding.
 
-References: 
-- Example assets can be found here: https://gitlab.com/cmahns/cmahns.gitlab.io
-- Example webpage can be viewed here: https://peninsula.dsachapters.org/
-- Jekyll documentation can be found here: https://jekyllrb.com/docs
-- The Lone Wolf Theme Example page can be found here: https://manid2.github.io/lone-wolf-theme/
+An example webpage can be viewed at [peninsula.dsachapters.org](https://peninsula.dsachapters.org/). The tools used to create it consist of:
+
+- [Jekyll](https://jekyllrb.com/), a static site generator
+    - For documentation please visit [jekyllrb.com/docs](https://jekyllrb.com/docs).
+- A theme based on the [Lone Wolf](https://github.com/manid2/lone-wolf-theme) Jekyll theme for a consistent visual style
+    - See [an example page here](https://manid2.github.io/lone-wolf-theme/).
+- The [Markdown formatting language](https://daringfireball.net/projects/markdown/basics) for adding and updating content
+- [GitHub Pages](https://docs.github.com/en/pages) for hosting the site
+    - You can learn more about GitHub Pages at [pages.github.com](https://pages.github.com/). You will find a detailed walkthrough on [GitHub Docs](https://docs.github.com/en/pages).
+
+You can also opt-in to self-host your site if your chapter has a webserver, this is however out of scope of this document.
 
 ## Expectations and Limitations
 
 This project's function is for the NTC to provide the means for smaller DSA Chapters to establish a Jekyll based website quickly and at no cost. The ownership (e.g. updates to content, updates to theme, customization) is expected to fall on the individual Chapter with minimal support from the NTC outside of onboarding. There is no requirement the website must be hosted on GitHub Pages, use this Jekyll theme, or use this project.
 
-Jekyll, the base code for this website and this project, is a static website generator, meaning some "dynamic" functionality like a comments section, dynamic chapter calendars for tracking events, or some embedded media, are not supported. The [Jekyll documentation](https://jekyllrb.com/docs) can help further explain what will and won't work if implemented on your website. GitLab has a [comparison between static and dynamic](https://about.gitlab.com/blog/2016/06/03/ssg-overview-gitlab-pages-part-1-dynamic-x-static/) webpages which will further explain the difference.
+Jekyll, the base code for this website and this project, is a static website generator, meaning some "dynamic" functionality like a comments section, dynamic chapter calendars for tracking events, or some embedded media, are not supported. The [Jekyll documentation](https://jekyllrb.com/docs) can help further explain what will and won't work if implemented on your website. See [this helpful comparison between static and dynamic webpages](https://about.gitlab.com/blog/2016/06/03/ssg-overview-gitlab-pages-part-1-dynamic-x-static/) that further explains the difference.
 
 ## Installation
 
-This document will be around using the hosted GitHub Pages instance as self-hosting this same website is out of scope of this document. This document will also assume a small amount of familiarity with `git` for version control and the Markdown markup language for creating pages on the website.
-You will also need a GitHub account and a GitHub organization for your chapter. While GitHub Pages can be created both on personal and group accounts, it's recommended to make this a Chapter based account to provide additional access if needed.
+You will need a GitHub account and a GitHub organization for your chapter. While GitHub Pages can be created both on personal and group accounts, it's recommended to make this a Chapter based account to provide additional access if needed.
 
 1. [Create a new organization](https://github.com/organizations/plan) on GitHub. Select the "Create a free organization" option.
 
@@ -52,9 +55,8 @@ You will also need a GitHub account and a GitHub organization for your chapter. 
 
 ![](readme-assets/site-preview.png)
 
-You can learn more about GitHub Pages at [pages.github.com](https://pages.github.com/) find a detailed walkthrough on [GitHub Docs](https://docs.github.com/en/pages).
 
-##  Updating Website
+## Adding And Editing Content
 
 All pages for this new website are contained in the `_pages` directory. There are several pages created as examples, here are the main ones:
 `404.md` -- Example 404 page which Jekyll will direct any page to if it doesn't otherwise exist, you can customize this further to your chapter's content.
@@ -63,7 +65,12 @@ All pages for this new website are contained in the `_pages` directory. There ar
 `calendar.md` -- A page where you can embed or provide a calendar around events and actions your Chapter is participating in
 `get-involved.md` -- A page where you can provide additional instructions for potential memebers to join your Chapter.
 
-## Customizing Website
+To learn more about adding content to your site, please [review the GitHub documentation](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll).
+
+After you commit your changes, you can check your site's Actions page at `https://github.com/organization-name/organization-name.github.io/actions` to see the deployment process status.
+
+
+## Customizing Your Website
 
 A handful of files need to be updated to better customize your chapter's webpage.
 `_data/nav.yml` -- This contains both the header and footer bars on the webpage, and will be added to every post or page made in the above section. Example values are provided from DSA National.  
