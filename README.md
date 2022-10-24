@@ -30,7 +30,7 @@ You will also need a GitHub account and a GitHub organization for your chapter. 
 6. Use `https://github.com/peninsuladsa-ntc/peninsuladsa-ntc.github.io` as "Your old repository's clone URL" and click "Begin import".
 6. Once the import is finished, click your repository link. You will see a link to your new site next to its name in the format `https://ORGANIZATION_NAME.github.io/`.
 
-You can learn more about GitHub Pages at [pages.github.com](https://pages.github.com/) find a detailed walkthrough on [GitHub Docs](https://docs.github.com/en/pages). See the general steps outlined below.
+You can learn more about GitHub Pages at [pages.github.com](https://pages.github.com/) find a detailed walkthrough on [GitHub Docs](https://docs.github.com/en/pages).
 
 ##  Updating Website
 
